@@ -141,7 +141,7 @@ class MainActivity : AppCompatActivity() {
         }
 /////////////////////////////////////////////////////////////////////
 
-        val food = arrayOf("Rice","Milk")
+        val food = resources.getStringArray(R.array.foodlist)
         spinneradap = ArrayAdapter(this@MainActivity, android.R.layout.simple_spinner_dropdown_item,food)
         myspinner.adapter = spinneradap
 
