@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KotlinWidgets</string>
+
+
+    <string-array name="foodlist">
+
+        <item>Rice</item>
+        <item>Fish</item>
+        <item>Milk</item>
+        <item>Egg</item>
+        <item>Vagitable</item>
+        <item>Sugur</item>
+
+    </string-array>
+
+</resources>

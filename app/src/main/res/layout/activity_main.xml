@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+
+        <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-----------------"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"/>
+
+        <Button
+                android:id="@+id/button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:text="Clicked Me"/>
+
+        <EditText
+                android:id="@+id/myedittext"
+                android:layout_width="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:id="@+id/buttontwo"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:text="Clicked Me"/>
+
+
+
+        <LinearLayout
+                android:id="@+id/myln"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            <RadioGroup
+                    android:id="@+id/radiogroup"
+                    android:layout_width="match_parent"
+                    android:padding="20dp"
+                    android:layout_height="wrap_content">
+
+
+                <RadioButton
+                        android:id="@+id/red"
+                        android:text="RED"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                <RadioButton
+                        android:id="@+id/green"
+                        android:text="GREEN"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                <RadioButton
+                        android:id="@+id/blue"
+                        android:text="BLUE"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+        <CheckBox
+                android:id="@+id/rice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rice"
+        />
+
+        <CheckBox
+                android:id="@+id/fish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fish"
+        />
+
+
+        <Button
+                android:id="@+id/checkbutton"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:text="Find Item"/>
+
+
+
+        <RatingBar android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:numStars="5"
+                   android:stepSize="0.50"
+                   android:rating="0.5"
+                   android:layout_gravity="center"
+                   android:layout_margin="20sp"
+                   android:id="@+id/ratingbar"
+        />
+
+        <Button
+                android:id="@+id/ratingcheck"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:text="Check Rating"/>
+
+
+
+        <Spinner
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/spinner"/>
+
+
+        <Switch android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:id="@+id/myswitch"/>
+
+        <Button
+                android:id="@+id/pdialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:text="Show Progress dialog"/>
+
+
+
+        <AutoCompleteTextView
+                android:id="@+id/autocompletetextView"
+                android:layout_width="250dp"
+                android:layout_gravity="center"
+                android:hint="Search food Here"
+                android:gravity="center"
+                android:completionThreshold="1"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/sampleitems"
+                android:text="hint: Mango, Apple"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextSwitcher
+                    android:id="@+id/textswitcher"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content">
+
+                <Button
+                        android:id="@+id/prev"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="PREVIOUS"
+                        android:layout_marginRight="10dp"
+                        android:layout_height="wrap_content"/>
+                <Button
+                        android:id="@+id/next"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginRight="10dp"
+                        android:text="NEXT"
+                        android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
